@@ -4,6 +4,18 @@ Overview
 
 This project focuses on building a predictive model to classify payment outcomes (successful or failed). The modeling pipeline includes feature engineering, model selection, training, evaluation, and deployment strategy.
 
+Project Files:
+
+* the models folder contains the best v0.0.1 performing model developed `winner.pkl`
+
+* the models folder also contains the `tpot_pipeline.py` the base model pipeline generated using auto-ml
+
+* the results generated for a CI/CD pipeline to pick up in `results.txt`.
+
+* lastly, a `review.csv` for a sense check by an stakeholder to this project.
+
+
+
 1. Feature Engineering Process
 
 Feature engineering is crucial for improving model performance. In this project, key transformations included:
